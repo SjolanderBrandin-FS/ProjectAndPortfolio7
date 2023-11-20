@@ -7,7 +7,7 @@ function Mission() {
         <section style={styles.container}>
             <h1 style={styles.h1}>The Objective</h1>
             <div style={styles.imgCont}>
-                <img style={styles.img} src={BSjolanderHike} alt='map of outdoor library locations' />
+                <img style={styles.img} src={BSjolanderHike} alt='image of a male standing on a hiking trail' />
             </div>
             <div style={styles.stateCont}>
                 <p>As a new developer in the industry I have built this portfolio as a way to showcase my skills and potential.
