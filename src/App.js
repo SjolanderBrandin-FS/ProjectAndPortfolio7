@@ -13,7 +13,7 @@ import './App.css'
 function App() {
   return (
     <div style={styles.container} >
-      <MyHeader pgTitle='projectandportfolio7' />
+      <MyHeader pgTitle='Sjotime Dev Portfolio' />
       <main style={styles.main}>
         <MyNav />
         <div style={styles.midCont}>
