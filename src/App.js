@@ -5,7 +5,7 @@ import MyHeader from './components/MyHeader'
 import MyNav from './components/MyNav'
 import MyAd from './components/MyAd'
 import Contact from './pages/Contact'
-import Projects from './pages/Projects'
+import Skills from './pages/Skills'
 import Mission from './pages/Mission'
 import Settings from './pages/Settings'
 import './App.css'
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<Mission />} />
             <Route path="mission" element={<Mission />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="projects" element={<Projects />} />
+            <Route path="skills" element={<Skills />} />
             <Route path="settings" element={<Settings />} />
           </Routes>
         </div>
@@ -40,7 +40,7 @@ const styles = {
   container: {
     display: 'flex',
     flexDirection: 'column',
-    background: 'lightgrey',
+    backgroundColor: 'lightgrey',
     height: 'auto',
     fontSize: '1rem',
     borderRadius: '2%',
@@ -55,7 +55,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    height: '150vh',
+    height: '100%',
     width: '100%',
     marginLeft: '25px',
     marginRight: '25px',

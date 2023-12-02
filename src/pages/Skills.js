@@ -1,32 +1,35 @@
 import React, { Component } from 'react'
 // Addition Imports ========================================|
-import GroceryArticle from '../components/GroceryArticle'
-//import GroceryForm from '../components/GroceryForm'
-import AdobeXD from '../images/AdobeXD.png'
-import API from '../images/API.png'
-import CSexample1 from '../images/CSexample1.png'
+import SkillsArticle from '../components/SkillsArticle'
+import SkillsForm from '../components/SkillsForm'
 
-
-class Projects extends Component {
+class Skills extends Component {
   state = {
     gList: [{
-      gName: 'Rick n Morty Library',
-      gDescp: 'This project was an API assignment, using C# as the language',
-      gImg: CSexample1,
-      gAlt: 'Image of Project for C#'
+      gName: 'API Work (2yrs)',
+      gDescp: 'I have completed multiple sites using different languages to access APIs with my strongest experience being in C# and JavaScript.'
     },
     {
-      gName: 'AdobeXD Mockups',
-      gDescp: 'An example of pre build work up methods to help increase the chance of a successful site',
-      gImg: AdobeXD,
-      gAlt: 'Image of AdobeXD Mock up site and application layouts/design'
+      gName: 'AdobeXD Creative Cloud (2yrs)',
+      gDescp: 'From photoshop to AdobeXD I have the fundementals of each tool and how to use them in my arsenal. I have created wireframes and full mock ups of almost every project I have built.'
     },
     {
-      gName: 'API Data Work',
-      gDescp: 'This project shows the ability to navigate and properly use large APIs as well as JS language skills',
-      gImg: API,
-      gAlt: 'Brown book with story inside'
-    }],
+      gName: 'Windows (8yrs)',
+      gDescp: 'This is my prefered OS, and is what I use in my primary rig at home.'
+    },
+    {
+      gName: 'Design (2.5yrs)',
+      gDescp: 'I have plenty of experience with research and execution with the design aspect of web developement, using CSS/SCSS and User Interface (UI) techniques that are proven in the industry.'
+    },
+    {
+      gName: 'Coding Languages (3yrs)',
+      gDescp: 'I am versed in many languages, with more practice than others, but have the fundamentals of each down. My language base includes: C#, C++, JavaScript, Python, Ruby, NodeJS, HTML5 and a few more that I have touched on.'
+    },
+    {
+      gName: 'Frameworks/Formats (3yrs)',
+      gDescp: 'I have experience with JSON, MVC, Bootstrap, CRUD, React, Scrum and Agile.'
+    },
+    ],
     color: 'White'
   }
   // Lifecycles
@@ -59,7 +62,7 @@ class Projects extends Component {
   addItem = e => {
     e.preventDefault()
     this.setState({
-      gList: [...this.state.gList, { gName: this.state.gName, gDescp: this.state.gDescp, gImg: this.state.gImg }]
+      gList: [...this.state.gList, { gName: this.state.gName, gDescp: this.state.gDescp }]
     })
     //Clear Form
     e.target.reset()
@@ -87,18 +90,18 @@ class Projects extends Component {
 
   render() {
     let groceryList = this.state.gList.map((element, i) => {
-      return <GroceryArticle key={i} val={element} delMe={() => this.removeItem(i)} />
+      return <SkillsArticle key={i} val={element} delMe={() => this.removeItem(i)} />
     })
     console.log('Render Lifecycle')
     return (
       <div style={styles.container}>
-        <h1 style={{ color: this.state.color }}>My Projects</h1>
+        <h1 style={{ color: this.state.color }}>Skills</h1>
         <div style={styles.form}>
-          {/* <GroceryForm
+          <SkillsForm
             getInput={this.getInput}
             addItem={this.addItem}
-            btnText="Add Project"
-          /> */}
+            btnText="Add Skill"
+          />
         </div>
         <div style={styles.list}>
           {groceryList}
@@ -108,7 +111,7 @@ class Projects extends Component {
   }
 }
 
-export default Projects
+export default Skills
 
 const styles = {
   container: {
@@ -129,7 +132,8 @@ const styles = {
   },
   form: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    color: 'black'
   },
   cycle: {
     color: 'grey'

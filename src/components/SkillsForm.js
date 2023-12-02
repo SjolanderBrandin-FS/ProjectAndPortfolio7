@@ -1,7 +1,7 @@
 import React from 'react'
 import MyButton from './MyButton'
 
-const GroceryForm = props => {
+const SkillsForm = props => {
     return (
         <form
             style={styles.myForm}
@@ -19,18 +19,12 @@ const GroceryForm = props => {
                     onChange={props.getInput}
                     style={styles.input}
                     placeholder="Description" />
-                <input
-                    name="gImg"
-                    value={props.gImg}
-                    onChange={props.getInput}
-                    style={styles.input}
-                    placeholder="Image Upload" />
             </div>
             <MyButton {...props} />
         </form>
     )
 }
-export default GroceryForm
+export default SkillsForm
 
 const styles = {
     myForm: {
@@ -40,7 +34,7 @@ const styles = {
         padding: '2%',
         backgroundColor: '#548687',
         color: 'rgb(13,173,194)',
-        borderRadius: '5px',
+        border: '0.2rem solid black',
         boxShadow: '1px 6px 1px 1px rgbs(0, 0, 255, .1)'
     },
     inputCont: {
@@ -48,7 +42,7 @@ const styles = {
         flexDirection: 'row',
         justifyContent: 'space-between',
         width: '90%',
-        margin: '0 5%'
+        margin: '3.5rem'
 
     },
     input: {
@@ -57,4 +51,5 @@ const styles = {
         border: '2px solid black',
         width: '30%'
     }
+
 }
