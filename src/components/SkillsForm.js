@@ -35,6 +35,7 @@ const styles = {
         backgroundColor: '#548687',
         color: 'rgb(13,173,194)',
         border: '0.2rem solid black',
+        borderRadius: '10px',
         boxShadow: '1px 6px 1px 1px rgbs(0, 0, 255, .1)'
     },
     inputCont: {
