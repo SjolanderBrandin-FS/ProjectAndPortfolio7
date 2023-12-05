@@ -40,7 +40,8 @@ const styles = {
         width: '85%',
         border: '.2rem solid black',
         alignSelf: 'center',
-        marginBottom: '5rem'
+        marginBottom: '5rem',
+        borderRadius: '10px'
     },
     stateCont: {
         alignSelf: 'center',
