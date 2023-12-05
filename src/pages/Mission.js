@@ -6,9 +6,6 @@ function Mission() {
     return (
         <section style={styles.container}>
             <h1 style={styles.h1}>The Objective</h1>
-            <div style={styles.imgCont}>
-                <img style={styles.img} src={BSjolanderHike} alt='image of a male standing on a hiking trail' />
-            </div>
             <div style={styles.stateCont}>
                 <p>As a new developer in the industry I have built this portfolio as a way to showcase my skills and potential.
                     Through the portfolio itself and the additional projects I aim to please someone that is looking for new, but
@@ -20,6 +17,7 @@ function Mission() {
                     to vault forward into tomorrow with the confidence that I am capable rising to the challenge.
                 </p>
             </div>
+            <img style={styles.img} src={BSjolanderHike} alt='a male standing on a hiking trail' />
         </section>
     )
 }
@@ -38,11 +36,11 @@ const styles = {
         color: '#548687'
     },
     img: {
-        height: '75%',
-        width: '75%'
-    },
-    imgCont: {
-        margin: '1rem'
+        height: '65%',
+        width: '85%',
+        border: '.2rem solid black',
+        alignSelf: 'center',
+        marginBottom: '5rem'
     },
     stateCont: {
         alignSelf: 'center',

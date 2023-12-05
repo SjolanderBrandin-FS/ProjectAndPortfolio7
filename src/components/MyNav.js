@@ -5,7 +5,7 @@ const MyNav = props => {
         window.location.href = '/mission'
     }
     function newsClick() {
-        window.location.href = '/projects'
+        window.location.href = '/skills'
     }
     function messClick() {
         window.location.href = '/contact'
@@ -13,7 +13,7 @@ const MyNav = props => {
     return (
         <nav style={styles.navCont}>
             <button style={styles.link} onClick={dashClick}>Mission</button>
-            <button style={styles.link} onClick={newsClick}>Projects</button>
+            <button style={styles.link} onClick={newsClick}>Skills</button>
             <button style={styles.link} onClick={messClick}>Contact</button >
         </nav>
     )

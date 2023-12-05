@@ -14,7 +14,7 @@ const styles = {
         fontWeight: 'red',
         backgroundColor: 'transparent',
         alignSelf: 'center',
-        color: '#548687',
+        color: 'white',
         margin: '1%',
         border: 'solid 0.15rem',
         cursor: 'pointer',

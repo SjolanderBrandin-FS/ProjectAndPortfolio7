@@ -1,20 +1,19 @@
 import React from 'react'
 import MyButton from './MyButton'
 
-const GroceryArticle = props => {
+const SkillsArticle = props => {
     return (
         <article style={styles.myArticle}>
             <img src={props.val.gImg} alt={props.val.gAlt} />
             <h1>{props.val.gName}</h1>
             <p>{props.val.gDescp}</p>
             <div style={styles.buttons}>
-                <MyButton btnText="Edit" />
                 <MyButton btnText="Delete" onClick={props.delMe} style={styles.btnColor} />
             </div>
         </article>
     )
 }
-export default GroceryArticle
+export default SkillsArticle
 
 const styles = {
     myArticle: {
