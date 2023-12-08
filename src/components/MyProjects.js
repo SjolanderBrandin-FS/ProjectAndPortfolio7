@@ -16,15 +16,15 @@ const MyProjects = props => {
         <div style={styles.cont}>
             <h1>- Showcase -</h1>
             <article style={styles.ad}>
-                <h1 style={styles.h1}>Project Title</h1>
+                <h1 style={styles.h1}>Golf Data</h1>
                 <button style={styles.btn} onClick={proj1Click}><img style={styles.img} src={Placeholder} alt='Project 1' /></button>
             </article>
             <article style={styles.ad}>
-                <h1 style={styles.h1}>Project Title</h1>
+                <h1 style={styles.h1}>C# Work</h1>
                 <button style={styles.btn} onClick={proj2Click}><img style={styles.img} src={Placeholder} alt='Project 2' /></button>
             </article>
             <article style={styles.ad}>
-                <h1 style={styles.h1}>Project Title</h1>
+                <h1 style={styles.h1}>Prep and Design</h1>
                 <button style={styles.btn} onClick={proj3Click}><img style={styles.img} src={Placeholder} alt='Project 3' /></button>
             </article >
         </div >
@@ -41,9 +41,7 @@ const styles = {
     ad: {
         border: '1px dashed #60495A',
         background: 'lightgrey',
-        height: '250px',
-        width: '230px',
-        paddingBottom: '50px',
+        padding: '15px',
         marginTop: '25px'
     },
     h1: {
@@ -51,6 +49,8 @@ const styles = {
     },
     img: {
         cursor: 'pointer',
+        height: '230px',
+        width: '230px'
 
     },
     btn: {

@@ -1,6 +1,10 @@
 import React from 'react'
-import PH200px from '../images/PH200px.jpg'
-import PlaceHolder from '../images/Placeholder.jpg'
+import LFL1 from '../images/LFL1.png'
+import LFL2 from '../images/LFL2.png'
+import LFL3 from '../images/LFL3.png'
+import RM1 from '../images/rm1.png'
+import RM2 from '../images/rm2.png'
+import RM3 from '../images/rm3.png'
 import '../style.css'
 
 function Project2() {
@@ -8,15 +12,18 @@ function Project2() {
     return (
         <section style={styles.container}>
             <h1 style={styles.h1}>Project 2</h1>
-            <h2 style={styles.h2}>"Project Name"</h2>
-            <p style={styles.p}>Project Description Goes Here...</p>
+            <h2 style={styles.h2}>"C# Work"</h2>
+            <p style={styles.p}>This section is to show my proficiency with C#/OOP.
+                In the images below you will see two different projects. The first is a digital library,
+                and the other is a data pull for tv series information. The digital library being a local API
+                and the other pulling data from an external API.</p>
             <div style={styles.imgCont}>
-                <img class="enlarge" style={styles.img} src={PH200px} alt='description' />
-                <img class="enlarge" style={styles.img} src={PH200px} alt='description' />
-                <img class="enlarge" style={styles.img} src={PH200px} alt='description' />
-                <img class="enlarge" style={styles.img} src={PlaceHolder} alt='description' />
-                <img class="enlarge" style={styles.img} src={PlaceHolder} alt='description' />
-                <img class="enlarge" style={styles.img} src={PlaceHolder} alt='description' />
+                <img class="enlarge" style={styles.img} src={LFL1} alt='description' />
+                <img class="enlarge" style={styles.img} src={LFL2} alt='description' />
+                <img class="enlarge" style={styles.img} src={LFL3} alt='description' />
+                <img class="enlarge" style={styles.img} src={RM1} alt='description' />
+                <img class="enlarge" style={styles.img} src={RM2} alt='description' />
+                <img class="enlarge" style={styles.img} src={RM3} alt='description' />
             </div>
 
 
@@ -47,14 +54,18 @@ const styles = {
     },
     p: {
         textAlign: 'center',
-        color: 'black'
+        color: 'black',
+        fontSize: '1.5rem'
     },
     imgCont: {
+        display: 'flex',
+        flexDirection: 'column',
         width: '50%',
         alignSelf: 'center',
         padding: '0rem'
     },
     img: {
+        alignSelf: 'center',
         margin: '1rem',
         border: '.2rem solid #548687',
         borderRadius: '10px',
