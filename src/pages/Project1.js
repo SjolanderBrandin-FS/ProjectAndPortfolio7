@@ -1,6 +1,4 @@
 import React from 'react'
-import PH200px from '../images/PH200px.jpg'
-import PlaceHolder from '../images/Placeholder.jpg'
 import '../style.css'
 import api1 from '../images/api1.png'
 import api2 from '../images/api2.png'
