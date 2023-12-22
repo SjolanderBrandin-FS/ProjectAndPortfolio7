@@ -79,6 +79,8 @@ const styles = {
         cursor: 'pointer'
     },
     img: {
-        marginRight: '1rem'
+        marginRight: '1rem',
+        height: '150px',
+        width: '150px'
     }
 }
