@@ -1,5 +1,4 @@
 import React from 'react'
-import BSjolanderHike from '../images/BSjolanderHike.png'
 
 function Mission() {
 
@@ -17,7 +16,6 @@ function Mission() {
                     to vault forward into tomorrow with the confidence that I am capable rising to the challenge.
                 </p>
             </div>
-            <img style={styles.img} src={BSjolanderHike} alt='a male standing on a hiking trail' />
         </section>
     )
 }
@@ -36,12 +34,10 @@ const styles = {
         color: '#548687'
     },
     img: {
-        height: '65%',
-        width: '85%',
-        border: '.2rem solid black',
+        height: '45%',
+        width: '45%',
         alignSelf: 'center',
-        marginBottom: '5rem',
-        borderRadius: '10px'
+        marginBottom: '5rem'
     },
     stateCont: {
         alignSelf: 'center',
