@@ -16,7 +16,7 @@ import './App.css'
 function App() {
     return (
         <div style={styles.container} >
-            <MyHeader pgTitle='Sjotime Dev Portfolio' />
+            <MyHeader pgTitle='ProjectandPortfolio7' />
             <main style={styles.main} >
                 <MyNav />
                 <div style={styles.midCont}>
@@ -35,9 +35,6 @@ function App() {
             </main>
         </div>
     )
-
-
-
 }
 
 export default App

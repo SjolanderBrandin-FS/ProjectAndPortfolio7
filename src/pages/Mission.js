@@ -6,7 +6,8 @@ function Mission() {
         <section style={styles.container}>
             <h1 style={styles.h1}>The Objective</h1>
             <div style={styles.stateCont}>
-                <p>As a new developer in the industry I have built this portfolio as a way to showcase my skills and potential.
+                <p>
+                    As a new developer in the industry I have built this portfolio as a way to showcase my skills and potential.
                     Through the portfolio itself and the additional projects I aim to please someone that is looking for new, but
                     moldable and efficient skills. I enjoy backend work and function over form. I have substantial prior experience
                     with team based environments, and the confidence to lead or speakup when needed. I'm a great communicator and
