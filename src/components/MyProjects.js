@@ -1,6 +1,8 @@
 import React from "react"
 //additional imports
-import Placeholder from '../images/PH200px.jpg'
+import Golf from '../images/GolfBall.png'
+import CsharpLogo from '../images/CsharpLogo.png'
+import DesignLogo from '../images/DesginLogo.png'
 
 const MyProjects = props => {
     function proj1Click() {
@@ -14,18 +16,18 @@ const MyProjects = props => {
     }
     return (
         <div style={styles.cont}>
-            <h1>- Showcase -</h1>
+            <h1 style={styles.title}>-Project Showcase-</h1>
             <article style={styles.ad}>
                 <h1 style={styles.h1}>Golf Data</h1>
-                <button style={styles.btn} onClick={proj1Click}><img style={styles.img} src={Placeholder} alt='Project 1' /></button>
+                <button style={styles.btn} onClick={proj1Click}><img style={styles.img} src={Golf} alt='Project 1' /></button>
             </article>
             <article style={styles.ad}>
                 <h1 style={styles.h1}>C# Work</h1>
-                <button style={styles.btn} onClick={proj2Click}><img style={styles.img} src={Placeholder} alt='Project 2' /></button>
+                <button style={styles.btn} onClick={proj2Click}><img style={styles.img} src={CsharpLogo} alt='Project 2' /></button>
             </article>
             <article style={styles.ad}>
                 <h1 style={styles.h1}>Prep and Design</h1>
-                <button style={styles.btn} onClick={proj3Click}><img style={styles.img} src={Placeholder} alt='Project 3' /></button>
+                <button style={styles.btn} onClick={proj3Click}><img style={styles.img} src={DesignLogo} alt='Project 3' /></button>
             </article >
         </div >
 
@@ -55,5 +57,8 @@ const styles = {
     },
     btn: {
         boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
+    },
+    title: {
+        fontSize: '1.5rem'
     }
 }

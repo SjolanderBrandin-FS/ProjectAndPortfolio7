@@ -3,6 +3,7 @@ import React from "react"
 import ImageUrl from '../images/ProIcon.png'
 import MyIcons from './MyIcons'
 import { FaEnvelope, FaBell } from 'react-icons/fa'
+import SDev from '../images/SDev.png'
 
 //header component
 const MyHeader = props => {
@@ -11,7 +12,7 @@ const MyHeader = props => {
     }
     return (
         <header style={styles.header}>
-            <h1 style={styles.left}>Sjotime Development</h1>
+            <h1 style={styles.left}><img style={styles.img} src={SDev} alt='Styled S with black circle border' />Sjotime Development</h1>
             <section style={styles.rightSide}>
                 <button style={styles.icon}><FaEnvelope /></button>
                 <button style={styles.icon}><FaBell /></button>
@@ -76,5 +77,8 @@ const styles = {
         border: 'none',
         backgroundColor: '#548687',
         cursor: 'pointer'
+    },
+    img: {
+        marginRight: '1rem'
     }
 }
