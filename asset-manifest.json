@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/css/main.dd3c6c1e.css",
-    "main.js": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/main.44fde7ff.js",
+    "main.js": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/main.2bdf4e4b.js",
     "static/js/787.fc2db931.chunk.js": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/787.fc2db931.chunk.js",
-    "static/media/BSjolanderHike.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/BSjolanderHike.01b61436c685bbc70fa0.png",
     "static/media/DesignWebAppAd.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/DesignWebAppAd.1f7dd0997a59ec405f65.png",
     "static/media/DesigniPad.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/DesigniPad.d8888338727ad93f03ad.png",
     "static/media/Prep2.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/Prep2.1849d370b5c380b77506.png",
@@ -15,6 +14,7 @@
     "static/media/DesignWatch.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/DesignWatch.5472045e9ca1979346a1.png",
     "static/media/rm3.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/rm3.9f694e48c201bf0658f5.png",
     "static/media/rm2.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/rm2.6f4594490d7a587385ca.png",
+    "static/media/DesginLogo.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/DesginLogo.e557601fe17442532b80.png",
     "static/media/LFL3.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/LFL3.b11b2352a064137033f3.png",
     "static/media/api2.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/api2.6644428d8a735e4d0e97.png",
     "static/media/LFL2.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/LFL2.f4c2f304be21fe52aa2c.png",
@@ -22,13 +22,15 @@
     "static/media/LFL1.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/LFL1.1c728018c55b2be61419.png",
     "static/media/api3.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/api3.29c91f7232f0767249e8.png",
     "static/media/api4.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/api4.5c9a1bfa8f4394e04154.png",
+    "static/media/GolfBall.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/GolfBall.00dc9c6177f48fc486e3.png",
+    "static/media/CsharpLogo.png": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/media/CsharpLogo.4e5260c06e9ad5a8e499.png",
     "index.html": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/index.html",
     "main.dd3c6c1e.css.map": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/css/main.dd3c6c1e.css.map",
-    "main.44fde7ff.js.map": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/main.44fde7ff.js.map",
+    "main.2bdf4e4b.js.map": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/main.2bdf4e4b.js.map",
     "787.fc2db931.chunk.js.map": "/https://sjolanderbrandin-fs.github.io/projectandportfolio7/static/js/787.fc2db931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd3c6c1e.css",
-    "static/js/main.44fde7ff.js"
+    "static/js/main.2bdf4e4b.js"
   ]
 }
